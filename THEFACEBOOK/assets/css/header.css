@@ -1,0 +1,61 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 1000px;
+}
+
+.wrapper .container-fluid {
+    position: fixed;
+    width: 940px;
+    height: 650px;
+    border: 1px solid #c6cee1;
+}
+
+.wrapper .container-fluid .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100px;
+    background-color: #3c5898;
+}
+
+.wrapper .container-fluid .header-container .logo {
+    margin-right: 100px;
+}
+
+.wrapper .container-fluid .header-container .logo span {
+    font-size: 55px;
+    color: #548ad9;
+}
+
+.wrapper .container-fluid .header-container .main-menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 280px 0 0;
+}
+
+.wrapper .container-fluid .header-container .main-menu ul li {
+    margin-left: 20px;
+}
+
+.wrapper .container-fluid .header-container .main-menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.wrapper > .container-fluid > .header-container > .main-menu > ul > li:nth-child(1) {
+    margin: 0;
+}

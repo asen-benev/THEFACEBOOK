@@ -1,0 +1,97 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    height: 430px;
+}
+
+.main-container .form {
+    display: flex;
+    width: 200px;
+    height: 130px;
+    border: 1px dashed #a3b3d0;
+    margin: 2px 0 0 2px;
+}
+
+.main-container .form form {
+    margin: 1px;
+}
+
+.main-container .form form label {
+    float: right;
+}
+
+.main-container .form form input[type="email"],
+.main-container .form form input[type="password"] {
+    display: block;
+    width: 96%;
+}
+
+.main-container .form input[type="button"] {
+    position: relative;
+    left: 42px;
+    border-color: #90b3e6;
+    background-color: #548bdc;
+    color: #ffffff;
+}
+
+.main-container .box-container {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin: 2px;
+    border: 1px solid #ced6e5;
+}
+
+.main-container .box-container span {
+    padding: 2px;
+    background-color: #3c5898;
+    color: #ffffff;
+}
+
+.main-container .box-container h2 {
+    text-align: center;
+}
+
+.main-container .box-container p {
+    margin-top: 0;
+    margin-left: 17px;
+    max-width: 635px;
+}
+
+.wrapper > .container-fluid > .main-container > .box-container > p:nth-child(4) > strong {
+    font-size: 17px;
+}
+
+body > div > div > main > div.box-container > p:nth-child(5) {
+    margin-bottom: 0;
+}
+
+.wrapper .container-fluid .box-container ul {
+    margin: 0;
+}
+
+body > div > div > main > div.box-container > p:nth-child(7) {
+    margin: 16px;
+}
+
+.wrapper .container-fluid .box-container form {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .container-fluid .box-container form input[type="button"] {
+    margin: 0 5px 5px;
+    border-color: #90b3e6;
+    background-color: #548bdc;
+    color: #ffffff;
+}

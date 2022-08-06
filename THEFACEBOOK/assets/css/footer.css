@@ -1,0 +1,35 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container .main-nav {
+    position: relative;
+}
+
+.footer-container .main-nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.footer-container .main-nav ul li {
+    margin-left: 15px;
+}
+
+.footer-container .main-nav ul li a {
+    text-decoration: none;
+    color: #7ea8e4;
+}
